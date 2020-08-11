@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://brandonkbuchs.github.io/brakebu.com",
+  "homepage": "http://www.brakebu.com",
   "dependencies": {
     "@carbon/icons-react": "^10.15.0",
     "@carbon/themes": "^10.16.0",
