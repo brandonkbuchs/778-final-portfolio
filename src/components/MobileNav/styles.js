@@ -31,4 +31,11 @@ export const NavLink = styled(Link)`
 export const NavButton = styled(Button)`
     width: 100%;
     justify-content: center;
+    background-color: #c1c1c1;
+    color: #2978a0;
+
+    &:hover {
+        background-color: #2978a0;
+        color: #393939;
+    }
     `;

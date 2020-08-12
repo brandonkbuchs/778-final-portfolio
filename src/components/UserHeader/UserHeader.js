@@ -9,7 +9,7 @@ const UserHeader = ({user}) => {
     return (
         <HeaderContainer isHome={location.pathname === '/'}>
             <Header>
-                <Image src={user.basics.picture} />
+                <Image src={user.basics.picture} alt="brandonKbuchs"/>
                 <div>
                     <h2>{user.basics.name}</h2>
                     <h4>

@@ -15,3 +15,10 @@ export const SkillContainer = styled.div`
     margin-top: 1.2rem;
     `;
 
+export const ImageContainer = styled.div`
+    margin-top: 1.2rem;
+    `;
+
+export const StyledImage = styled.img`
+    margin: 15px;
+    `;

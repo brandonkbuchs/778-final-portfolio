@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://www.brakebu.com",
   "dependencies": {
+    "@carbon/charts-react": "^0.34.9",
     "@carbon/icons-react": "^10.15.0",
     "@carbon/themes": "^10.16.0",
     "@testing-library/jest-dom": "^4.2.4",

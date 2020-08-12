@@ -1,5 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Awards from './Awards';
 import Me from './Me';
 import Projects from './Projects';
 import Work from './Work';
@@ -24,6 +25,9 @@ const Pages = ({user}) => {
                 </Route>
                 <Route path="/volunteer">
                     <Volunteer user={user} />
+                </Route>
+                <Route path="/awards">
+                    <Awards user={user} />
                 </Route>
             </Switch>
         </Router>

@@ -21,7 +21,7 @@ export const Header = styled.div`
 export const Image = styled.img`
     width: 200px;
     margin-right: 1rem;
-    border-radius: 2px;
+    border-radius: 20%;
     `;
 
 export const ViewResumeLink = styled.a`
@@ -31,12 +31,12 @@ export const ViewResumeLink = styled.a`
     font-weight: bold;
     align-items: center;
     margin-top: 1rem;
-    border: 2px solid #2ecc40;
-    background-color: rbga(46, 204, 64, 0.3);
+    border: 2px solid #2978a0;
+    background-color: #393939;
     transition: background-color 250ms ease;
 
     &:hover {
-        background-color: #2ecc40;
+        background-color: #2978a0;
     }
 
     svg {

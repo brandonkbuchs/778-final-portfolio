@@ -1091,6 +1091,29 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@carbon/charts-react@^0.34.9":
+  version "0.34.9"
+  resolved "https://registry.yarnpkg.com/@carbon/charts-react/-/charts-react-0.34.9.tgz#0700211363aeed2beef99038d36246ea3d8606df"
+  integrity sha512-adi5tvQsj07N9Zp3NcBDgE43L2P4XmcBKhEkXtc0zMNPrPy4jSUboMg/l93GLNAMNRAEsOTPdgQHBnSYbRZg3Q==
+  dependencies:
+    "@carbon/charts" "^0.34.9"
+
+"@carbon/charts@^0.34.9":
+  version "0.34.9"
+  resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.34.9.tgz#a244520952fb10eeefec25ea3f2066a11af56ea2"
+  integrity sha512-HGZhTha7xeCUPvcpwFiE6LWmRWpmIn6rc76+fh/SBDRK4upVjVR2KmlIPDhoR1pxRVhON3dG29hsKOeEAdR7gw==
+  dependencies:
+    "@carbon/colors" "10.4.0"
+    "@carbon/utils-position" "1.1.1"
+    date-fns "2.8.1"
+    lodash-es "4.17.15"
+    resize-observer-polyfill "1.5.0"
+
+"@carbon/colors@10.4.0":
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.4.0.tgz#8c21127926bc389dcb4d415b55d4eae278f3d525"
+  integrity sha512-UERU07hWXAjsaWu6JPJDyJnwVLkJr+8wTvFrbCkubCfl/MZjKoyLgz0CNypu8hSg8ZaDUzl/NfXMgRpprzuSjQ==
+
 "@carbon/colors@^10.11.0":
   version "10.11.0"
   resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-10.11.0.tgz#060dce87ddfaabe313ad85d677962e92cf6184a1"
@@ -1135,6 +1158,11 @@
   dependencies:
     "@carbon/import-once" "^10.3.0"
     "@carbon/layout" "^10.12.0"
+
+"@carbon/utils-position@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@carbon/utils-position/-/utils-position-1.1.1.tgz#bea463b833608902ea37ac30bec36e3c0a3b547f"
+  integrity sha512-W8ykraEzr9WsH8+6+FgI6lmK4elFxH8Uy9+XDbDTvyVbF6fq5jgi4dPCDd1AoCtUBCcLAehInhReDaFM3DrM6w==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
@@ -3822,6 +3850,11 @@ data-urls@^1.0.0, data-urls@^1.1.0:
     abab "^2.0.0"
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
+
+date-fns@2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.8.1.tgz#2109362ccb6c87c3ca011e9e31f702bc09e4123b"
+  integrity sha512-EL/C8IHvYRwAHYgFRse4MGAPSqlJVlOrhVYZ75iQBKrnv+ZedmYsgwH3t+BCDuZDXpoo07+q9j4qgSSOa7irJg==
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
@@ -7017,6 +7050,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@4.17.15:
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.15.tgz#21bd96839354412f23d7a10340e5eac6ee455d78"
+  integrity sha512-rlrc3yU3+JNOpZ9zj5pQtxnx2THmvRykwL4Xlxoa8I9lHBlVbbyPhgyPMioxVZ4NqyxaVVtaJnzsyOidQIhyyQ==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -9794,6 +9832,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+resize-observer-polyfill@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.0.tgz#660ff1d9712a2382baa2cad450a4716209f9ca69"
+  integrity sha512-M2AelyJDVR/oLnToJLtuDJRBBWUGUvvGigj1411hXhAdyFWqMaqHp7TixW3FpiLuVaikIcR1QL+zqoJoZlOgpg==
 
 resize-observer-polyfill@^1.5.1:
   version "1.5.1"
