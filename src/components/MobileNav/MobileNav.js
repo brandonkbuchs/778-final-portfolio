@@ -46,6 +46,7 @@ const MobileNav = () => {
                         iconDescription="Awards"
                         tooltipPosition="bottom"
                     />
+                </NavLink>
             </NavWrapper>
         </Container>
     );
